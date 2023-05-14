@@ -3,9 +3,27 @@
   "version": "0.0.1",
   "description": "Beat machine using Howler.js, and Roland 808 samples.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "Nerdbord",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniaPiWo/la-bit-machina.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AniaPiWo/la-bit-machina/issues"
+  },
+  "homepage": "https://github.com/AniaPiWo/la-bit-machina#readme",
+  "devDependencies": {
+    "vite": "^4.3.5"
+  }
 }

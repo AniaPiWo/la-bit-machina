@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.headerTitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #18121E;
+}
+
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #18121E;
+    background: #FDFCFD;
+    padding: 20px 30px 20px 40px;
+    border: none; 
+    outline: none;
+    box-shadow: -2px -2px 13px rgba(255, 255, 255, 0.8), 5px 5px 13px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.headerButton:hover {
+    background: #FDFCFD;
+    box-shadow: inset -2px -2px 13px rgba(255, 255, 255, 0.8), inset 2px 2px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
